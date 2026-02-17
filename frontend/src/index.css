@@ -1,0 +1,22 @@
+body {
+  background: linear-gradient(to right, #dbeafe, #e0f2fe);
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+input, select {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
