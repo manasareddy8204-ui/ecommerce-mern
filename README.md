@@ -57,3 +57,54 @@ This project supports user authentication, role-based access control, product ma
 
 ## 📂 Project Structure
 
+```
+ecommerce-project
+│
+├── backend
+│   ├── models
+│   ├── routes
+│   ├── middleware
+│   └── server.js
+│
+├── frontend
+│   ├── src
+│   └── public
+│
+├── .gitignore
+└── README.md
+```
+
+---
+
+## ▶️ How to Run Locally
+
+### Backend Setup
+```bash
+cd backend
+npm install
+# create .env from .env.example and add your values
+npm start
+```
+
+Backend runs on:  
+http://127.0.0.1:5000
+
+### Frontend Setup
+```bash
+cd frontend
+npm install
+npm start
+```
+
+Frontend runs on:  
+http://localhost:3000
+
+---
+
+## 👨‍💻 Author  
+H J Manasa  
+
+---
+
+## ⭐ Show your support  
+If you like this project, give it a ⭐ on GitHub.
